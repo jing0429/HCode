@@ -30,11 +30,16 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: "Maded by Docusaurus",
+    title: "Made by Docusaurus",
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        This site is build by <a href="https://docusaurus.io" target={"_blank"}> Docusaurus !</a> which is an awesome tool build 
+        This site is build by{" "}
+        <a href="https://docusaurus.io" target={"_blank"}>
+          {" "}
+          Docusaurus !
+        </a>{" "}
+        which is an awesome static site build tool !
       </>
     ),
   },

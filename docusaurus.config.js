@@ -3,17 +3,27 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'HCode',
-  tagline: '用筆記發現人生',
+  tagline: '用筆記記錄一下短暫的人生',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/HCode/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
-  
+  stylesheets:[
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
+  ],
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'jing0429', // Usually your GitHub org/user name.
@@ -31,6 +41,7 @@ const config = {
   presets: [
     [
       'classic',
+     
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -39,7 +50,9 @@ const config = {
           // Remove this to remove the "edit this page" links.
           docItemComponent:"../src/theme/doc.tsx",
           path:"note",
-          routeBasePath:'note'
+          routeBasePath:'note',
+          remarkPlugins:[math],
+          rehypePlugins:[katex]
         },
         blog: {
           showReadingTime: false,
@@ -70,7 +83,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Note',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -79,7 +92,8 @@ const config = {
             position: 'right',
           },
         ],
-      },
+      }
+      ,
       footer: {
         style: 'dark',
         // links: [
