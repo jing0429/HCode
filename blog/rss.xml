@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>HCode Blog</title>
+        <link>https://your-docusaurus-test-site.com/HCode/blog</link>
+        <description>HCode Blog</description>
+        <lastBuildDate>Tue, 25 Oct 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[實習面試心得 - 群暉]]></title>
+            <link>https://your-docusaurus-test-site.com/HCode/blog/interview-synology-intern</link>
+            <guid>interview-synology-intern</guid>
+            <pubDate>Tue, 25 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a class="hash-link" href="#introduction" title="Direct link to heading">​</a></h2><p>今天要來分享群暉實習的面試！
+作為大三第一間面試的公司
+這篇文章會先介紹背景跟建議準備方向
+最後再進到面試的QA環節！</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="背景">背景<a class="hash-link" href="#背景" title="Direct link to heading">​</a></h2><p>今天應徵的是Software Engineer In Test(intern)。
+那官網上要求的如下</p><ul><li>Currently enrolled in an undergraduate or master’s program</li><li>Ability to commute to Synology's office in Banqiao for at least 24 hours per week or during epidemic prevention periods, to follow remote work policies</li><li>Proficiency in Python or C++</li><li>Familiarity with Unix/Linux</li><li>Familiarity with Git</li><li>Experience with JavaScript, CSS/HTML</li></ul><p>目前是就讀台大資工系大三，在這之前沒有正式的軟體公司實習經驗！
+但是有擔任過研究助理(感覺加分不大，所以就算沒經驗也不要放棄！)。
+除此之外再加上一個全端的side project。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="建議準備方向">建議準備方向<a class="hash-link" href="#建議準備方向" title="Direct link to heading">​</a></h2><ul class="contains-task-list containsTaskList_mC6p"><li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->OS相關，不過不用太深，知道thread,process大概就Ok</li><li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->履歷細節，要知道自己寫在履歷上的東西到底是什麼(等等會舉例)</li><li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->針對職位的相關常識</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="面試過程">面試過程<a class="hash-link" href="#面試過程" title="Direct link to heading">​</a></h2><p>在問答的過程中，面試官很常基於你的答案在做延伸
+這種問題前面會加上<!-- -->[加問]<!-- -->
+底下我的回答是當下的回答
+不一定是正確答案！</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="第一位面試官">第一位面試官<a class="hash-link" href="#第一位面試官" title="Direct link to heading">​</a></h4><ol><li><p>可以跟我說說看thread跟process嗎?  </p><blockquote><p>:我們寫的程式在執行前就只是一般的文件，那執行的過程中就稱為process，那process會有一些屬性像是id，由誰生出來的等等。那thread的話是同一個process中生出來的，通常是為了幫助我們提高效率，而且因為是同個process所以有共享不少資源，方便但也需要小心。用人比喻的話process就像是不同的人，thread就像同一個人開分身。</p></blockquote></li><li><p>[加問]<!-- --> 你剛才提到共享資源，可以說說看thread共享了什麼嗎  </p><blockquote><p>: 蠻多的ㄟXD，像是變數跟file descriptor等等。</p></blockquote></li><li><p>我有看到你在履歷上有docker的經驗，可以說說看docker跟VM的差別嗎？</p><blockquote><p>: docker蠻像讓container藉由docker跟你的OS互動，但VM就是直接在你的OS上再蓋一層OS，比較消耗資源。  </p></blockquote></li><li><p>有使用了什麼docker的功能</p><blockquote><p>: 只有用docker開database跟把server打包成container而已XD。</p></blockquote></li><li><p>可以說說看Restful API 是什麼嗎  </p><blockquote><p>: Restful API是一種stateless的API，代表我們每次的request都跟先前的無關，只跟當前這個request以及他附帶的value像token 有關。</p></blockquote></li><li><p>[加問]<!-- --> 這樣做的好處是什麼？  </p><blockquote><p>: 我不確定，但如果我們還要考慮先前的情況或許會變得很複雜？</p></blockquote></li></ol><h3 class="anchor anchorWithStickyNavbar_LWe7" id="coding-interview">Coding interview<a class="hash-link" href="#coding-interview" title="Direct link to heading">​</a></h3><p>使用的是他們自己的doc，蠻像google doc的，酷<br>
+<!-- -->語言的話可以自由選擇</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="palindrome">palindrome<a class="hash-link" href="#palindrome" title="Direct link to heading">​</a></h4><p>給定一個字串，判斷他是不是回文
+蠻經典的簡單題目，就不多說了XD。</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="remove-one-palindrome">Remove one Palindrome<a class="hash-link" href="#remove-one-palindrome" title="Direct link to heading">​</a></h4><p>上題寫完之後的進階題，這次一樣給定一個字串，那這次最多可以移除一個字元後判斷他是不是回文
+當下心裡慌得一批，感覺我會寫的很髒，就跟他說讓我想想。
+但想想後發現跟上題很類似，上題是由外而內，如果遇到一個不一樣的就可以回傳false。
+但這題可以移除一個，所以一樣由外而內，如果遇到不一樣的
+就回傳 isPalindrome(移除前面字元後的substring) || isPalindrome(移除後面字元後的substring)
+如果兩個之中有一個是那就是，否則這個string至少要移除兩個以上才可能是palindrome。</p><p>解完之後就休息20分鐘讓面試官討論</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="第二位面試官">第二位面試官<a class="hash-link" href="#第二位面試官" title="Direct link to heading">​</a></h4><p>第二個面試官問題比較像在考其他方面的常識，但我的常識蠻少的所以這關回答得不太ok qq。</p><ol><li><p>說明Javascript中的Promise  </p><blockquote><p>: Promise是Javascript非同步一個很重要的機制。例如我今天想吃晚餐，我可能會點外送，但點了外送後不是我親自去領而是交給別人，這段時間我去做其他事，
+但是交給別人做的話我就沒辦法確定這件事什麼時候會做好，所以通常會提供一個resolve跟reject來告訴他成功或失敗後要做的事情。
+這種情況下的resolve(成功)可能會是打電話給我，讓我可以去領餐點。reject(失敗)可能是退款給我。</p></blockquote></li><li><p>[加問]<!-- --> 你剛才有提到這段時間去做其他事，有沒有辦法等到他回來再做事？  </p><blockquote><p>: 可以，這時候需要使用await，那await要在async function中才能使用，他會在那行等到某個promises被fulfill或reject。</p></blockquote></li><li><p>你知道什麼是DDoS嗎？</p><blockquote><p>: 不確定XD，但我猜是駭客使用多台被感染的電腦像某個主機發送大量請求？</p></blockquote></li><li><p>[加問]<!-- --> 那該如何防禦呢？  </p><blockquote><p>: (心裡:窩不ㄗ道)我不清楚，可能是ban掉某些特定ip?</p></blockquote></li></ol><h3 class="anchor anchorWithStickyNavbar_LWe7" id="coding-interview-1">coding interview<a class="hash-link" href="#coding-interview-1" title="Direct link to heading">​</a></h3><h4 class="anchor anchorWithStickyNavbar_LWe7" id="pattern-matching">Pattern matching<a class="hash-link" href="#pattern-matching" title="Direct link to heading">​</a></h4><p>給你一個words跟一個pattern，問這個words符不符合pattern。<br>
+<!-- -->例如words= dog cat cat dog，pattern = abba
+符合，因為可以把a當成dog，b當成cat這樣。
+沒有太多懸念，直接用unordered_map通通記起來XD</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="第三位面試官">第三位面試官<a class="hash-link" href="#第三位面試官" title="Direct link to heading">​</a></h4><p>第三位面試官是人資，
+大概會問你你之前做些的事，
+大概什麼時候會想開始上班，
+主要是詢問你的履歷的細節。
+最後會詢問你在這些做過的事中扮演什麼角色，
+有沒有什麼特質讓你覺得自己適合這份工作。</p><p>(待補)</p>]]></content:encoded>
+            <category>interview</category>
+        </item>
+    </channel>
+</rss>
