@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/HCode/blog</id>
     <title>HCode Blog</title>
-    <updated>2022-10-25T00:00:00.000Z</updated>
+    <updated>2022-12-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/HCode/blog"/>
     <subtitle>HCode Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[實習面試心得 - 群暉]]></title>
         <id>interview-synology-intern</id>
         <link href="https://your-docusaurus-test-site.com/HCode/blog/interview-synology-intern"/>
-        <updated>2022-10-25T00:00:00.000Z</updated>
+        <updated>2022-12-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Introduction]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a class="hash-link" href="#introduction" title="Direct link to heading">​</a></h2><p>今天要來分享群暉實習的面試！
 作為大三第一間面試的公司
@@ -39,7 +39,21 @@
 大概什麼時候會想開始上班，
 主要是詢問你的履歷的細節。
 最後會詢問你在這些做過的事中扮演什麼角色，
-有沒有什麼特質讓你覺得自己適合這份工作。</p><p>(待補)</p>]]></content>
+有沒有什麼特質讓你覺得自己適合這份工作。</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="第四位面試官-主管">第四位面試官 主管<a class="hash-link" href="#第四位面試官-主管" title="Direct link to heading">​</a></h4><p>簡單介紹一下公司後就開始technical question
+說明一下relational database </p><ol><li><p>為什麼需要database而不是將每筆資料存成檔案就好 </p><blockquote><p>我其實有想過這個問題但沒有深究，或許是database的一些資料結構可以給我們更好的存取效率與方式？</p></blockquote></li><li><p>c++ virtual</p><blockquote><p>我有在學校作業用過這個東西XD，這個keyword可以讓繼承他的class可以override這個函數，但不一定要override</p></blockquote></li><li><p>[加問]<!-- -->c++ pure virtual </p><blockquote><p>我不確定ㄟ，但從名字我猜是強迫子類實作的函數，可能用在抽象函式上？
+主管：你很會猜:)</p></blockquote></li><li><p>c++ move</p><blockquote><p>我不確定，但我記得跟left value,right value有關？</p></blockquote></li><li><p>多態</p><blockquote><p>我覺得這個概念蠻有趣的，就像一台車子不管她使用什麼材料當能源，都是用煞車方向盤油門等等來操控，很多個類別都提供差不多的介面</p></blockquote></li><li><p>你可以簡單描述一下用戶登入的過程嗎</p><blockquote><p> 要到多細？從前端打字開始嗎XD?
+主管：可以
+在用戶打完帳號密碼之後會先查看這個帳號是否存在，不存在或許可以回傳一個404，存在的話再把他打的密碼hash過後跟資料庫內的比對，一樣的話就算登入成功，或許會在他身上留個cookie或JWT</p></blockquote></li><li><p>輸入網址到畫面出現中間的過程</p><blockquote><p> 在打網址之後會先透過DNS將網址轉換成ip，並建立tcp連線(後來發現HTTP3.0好像不是TCP 0.0)，建立連線後會要求需要的檔案如html css js,那最後html會經過DOM tree渲染在畫面上</p></blockquote></li><li><p>testing的相關經驗以及為什麼想應徵testing</p><blockquote><p>其實沒有太多，只有寫過幾次unit testing跟e2e跟mock database，但覺得這個技能很實用，可以確保寫出來的程式碼有一定的品質
+<!-- -->[加問]<!-- --> 你剛才提到mocking database，可以跟我解釋一下嗎
+我們在測試一個需要資料庫的功能時會提供一個假的資料庫，否則出問題無法確定是資料庫出問題還是功能出問題</p></blockquote></li><li><p>開發的框架與語言選擇？</p><blockquote><p> 語言的話是使用Typescript，原因的話是js在開發中大型的程式時容易因為type發生問題，你無法確定傳進來的東西到底是什麼，access到undefined跟null就會RE，
+主管：那如果隊友全部都寫any呢？
+笑死 這個情況已經遇過了 我也罵過了</p></blockquote></li><li><p>HTTP1.0 2.0 3.0的差別 你使用的框架是哪種？</p><blockquote><p>我不確定，目前剛好在教，但我猜大概是2或3? 因為1 太爛了XD</p></blockquote></li></ol><p>最後：我這邊問完了 還有沒有什麼問題？
+沒有的話你錄取了
+我：虫合
+然後簡單說一下進公司後要做的事情就結束了</p><p>心得 </p><p>面試官人都很好
+即使答不上來也不會讓你覺得完蛋了XD</p><p>coding interview不會太難
+個人認爲偏簡單(超級加分,自己私心認為大部分的資結算法平常都不會用到很深)
+整體體驗非常舒服 期待菜雞我的實習生活qq</p>]]></content>
         <category label="interview" term="interview"/>
     </entry>
 </feed>
