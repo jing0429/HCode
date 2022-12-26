@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkh_code=self.webpackChunkh_code||[]).push([[121],{8070:e=>{e.exports=JSON.parse('[{"label":"docker","permalink":"/HCode/note/tags/docker","count":1},{"label":"mongoDB","permalink":"/HCode/note/tags/mongo-db","count":1}]')}}]);

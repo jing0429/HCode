@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkh_code=self.webpackChunkh_code||[]).push([[514],{1437:e=>{e.exports=JSON.parse('{"permalink":"/HCode/","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
