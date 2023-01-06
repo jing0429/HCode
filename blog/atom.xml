@@ -13,32 +13,17 @@
         <link href="https://your-docusaurus-test-site.com/HCode/blog/synology-intern-firstweek"/>
         <updated>2023-01-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[前言]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" src="https://images.unsplash.com/photo-1577538926988-7926820ed209?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3lub2xvZ3l8ZW58MHwwfDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;q=60" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="前言">前言<a class="hash-link" href="#前言" title="Direct link to heading">​</a></h2><p>繼上次分享面試內容後,今天要來分享首週心得～
-職位是SWE in test intern,組別是軟體開發架構組</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="工時與福利">工時與福利<a class="hash-link" href="#工時與福利" title="Direct link to heading">​</a></h2><p>大多數人工作都是為了錢～
-所以最開始先補上薪資福利以及工時等等
-因為是實習生所以是算時薪250,雖然跟最頂尖的比起來好像差了不少
-但有一個mentor就當一些錢拿去付給他了XD 不虧
-福利的話是有</p><ul><li>免費早餐(限量,但好像都會剩)</li><li>免費飲料(小瓶的果汁,奧利多水,紅茶,牛奶)</li><li>餅乾</li><li>下午3點的小點心
-早餐跟點心是隨機的,連我這種挑嘴大多都能接受
-正職的話還能用員工價購買自家產品</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="文化">文化<a class="hash-link" href="#文化" title="Direct link to heading">​</a></h2><p>因為有mentor所以適應的還算快
-公司內部有自己的全家桶像是mail,chat,docs,等等
-甚至還有一個類似ptt的地方
-新人要做的第一件事就是po一篇自介文(超可怕😱)
-上面還會有一些像是公司內社團,二手拍賣之類的文章XD
-我的組別甚至還有一個會可以讓組員分享任何想分享的東西
-我的mentor就分享了想玩的遊戲XD
-蠻酷的</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="工作環境">工作環境<a class="hash-link" href="#工作環境" title="Direct link to heading">​</a></h2><p>公司由4個超像的辦公室組成(超常走錯\==)
-每個人會分配到一台i5桌機
-一個可以ssh進去的Ubuntu
-跟一台Virtual DS(公司產品)
-Ubuntu跟DS都是想怎麼玩就怎麼玩
-辦公空間還算夠用
-應該可以放不少包包,書,辦公用品等等
-蠻多人都有放一些娃娃海報等個人用品</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="工作內容">工作內容<a class="hash-link" href="#工作內容" title="Direct link to heading">​</a></h2><p>我原本想像的場景是第一個禮拜程式寫太爛被罵個臭頭,但工作第一個禮拜居然完全沒有寫到任何一行扣！
-主要都在學內部的工具怎麼用，開發流程以及環境設定，還有一個測試報告(針對公司的產品提供建議)。
+        <content type="html"><![CDATA[<p><img loading="lazy" src="https://images.unsplash.com/photo-1577538926988-7926820ed209?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3lub2xvZ3l8ZW58MHwwfDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;q=60" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="前言">前言<a class="hash-link" href="#前言" title="Direct link to heading">​</a></h2><p>繼上次分享面試內容後，今天要來分享首週心得～職位是SWE in test intern，組別是軟體開發架構組。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="工時與福利">工時與福利<a class="hash-link" href="#工時與福利" title="Direct link to heading">​</a></h2><p>大多數人工作都是為了錢😅，所以最開始先補上薪資福利以及工時等等。
+因為是實習生所以是算時薪250，雖然跟最頂尖的比起來好像差了不少，
+但有一個mentor就當一些錢拿去付給他了XD，不虧！
+工時的話要求至少一週到24小時，大概每週三天，安排上還算彈性。<br>
+<!-- -->福利的話是有</p><ul><li>免費早餐(限量,但好像都會剩)</li><li>免費飲料(小瓶的果汁,奧利多水,紅茶,牛奶)</li><li>餅乾</li><li>下午3點的小點心         </li></ul><p>早餐跟點心是隨機的，連我這種挑嘴大多都能接受，正職的話還能用員工價購買自家產品！</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="文化">文化<a class="hash-link" href="#文化" title="Direct link to heading">​</a></h2><p>因為有mentor所以適應的還算快，公司內部有自己的全家桶像是mail，chat，docs等等，
+還有一個類似ptt的地方。新人要做的第一件事就是po一篇自介文(超可怕😱)，上面還會有一些像是公司內社團，二手拍賣之類的文章XD。
+我的組別甚至還有一個會可以讓組員分享任何想分享的東西，我的mentor就分享了想玩的遊戲XD</p><p>蠻酷的😄</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="工作環境">工作環境<a class="hash-link" href="#工作環境" title="Direct link to heading">​</a></h2><p>公司由4個超像的辦公室組成(超常走錯= =)，每個人會分配到一台i5桌機，一個可以ssh進去的Ubuntu，跟一台Virtual DS(公司產品)，Ubuntu跟DS都是想怎麼玩就怎麼玩，辦公空間還算夠用
+應該可以放不少包包,書,辦公用品。蠻多人都有放一些娃娃海報等個人用品。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="工作內容">工作內容<a class="hash-link" href="#工作內容" title="Direct link to heading">​</a></h2><p>我原本想像的場景是第一個禮拜程式寫太爛被罵個臭頭，但工作第一個禮拜居然完全沒有寫到任何一行扣！主要都在學內部的工具怎麼用，開發流程以及環境設定，還有一個測試報告(針對公司的產品提供建議)。
 當然學內部工具這件事有好有壞(底下純屬個人觀點)，好處是不用重複造輪子，可以用更好的效率完成任務，而且你待在公司與時俱進的會是內功，因為工具不用一直學新的,能學的事情就只剩寫更好的扣,學更深的觀念，看了一圈大多數的人書架上擺的書都是設計模式重構等等內功型書籍。
 壞處是內部工具不是能讓你帶走的技能或是能放在履歷上炫耀的，只能說由個人選擇～有好有壞。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="總結">總結<a class="hash-link" href="#總結" title="Direct link to heading">​</a></h2><p>現在經濟沒那麼景氣，大公司頻傳人事凍結，而我還能找到一個容身之處還算幸運🥸，
-必須趁這機會偷偷發育！</p>]]></content>
+必須趁這機會偷偷發育！如果有任何想分享或喜歡這篇文章都很歡迎在底下留言~</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[實習面試心得 - 群暉]]></title>
