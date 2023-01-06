@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkh_code=self.webpackChunkh_code||[]).push([[738],{4453:e=>{e.exports=JSON.parse('{"label":"mongoDB","permalink":"/HCode/tags/mongo-db","allTagsPath":"/HCode/tags","count":1}')}}]);

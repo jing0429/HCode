@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkh_code=self.webpackChunkh_code||[]).push([[336],{5724:a=>{a.exports=JSON.parse('{"label":"database","permalink":"/HCode/blog/tags/database","allTagsPath":"/HCode/blog/tags","count":1}')}}]);
